@@ -6,7 +6,7 @@
 	flags_hud = FLAG_HUD_MOB
 
 /obj/hud/button/menu/title
-	name = "Burgerstation 13"
+	name = "Halo: Winter Contingency"
 	icon_state = "title"
 	screen_loc = "LEFT+1,CENTER+2"
 
@@ -33,28 +33,23 @@
 	color = null
 	return ..()
 
-/obj/hud/button/menu/selection/character_new
-	name = "Join as New Character"
-	desc_extended = "Click here to create a new character and join the current round."
+/obj/hud/button/menu/selection/join_unsc
+	name = "Join as UNSC"
 	icon_state = "new"
 	screen_loc = "LEFT+1,CENTER+1"
-	command_to_run = "new-character"
+	command_to_run = "become-unsc"
 
-/obj/hud/button/menu/selection/character_load
-	name = "Join as Existing Character"
-	desc_extended = "Click here to load an existing character and join the current round."
-	icon_state = "load"
-	screen_loc = "LEFT+1,CENTER-0"
-	command_to_run = "load-character"
-
-
-/obj/hud/button/menu/selection/join_antagonist
-	name = "Join as Antagonist"
-	desc_extended = "Click here to become an antagonist, if possible. Antagonists can spawn near the end of the round after the mission. Requires an antagonist token."
+/obj/hud/button/menu/selection/join_urf
+	name = "Join as Insurrection"
 	icon_state = "antag"
-	screen_loc = "LEFT+1,CENTER-1"
-	command_to_run = "become-antagonist"
+	screen_loc = "LEFT+1,CENTER-0"
+	command_to_run = "become-insurrection"
 
+/obj/hud/button/menu/selection/join_covenant
+	name = "Join as Covenant"
+	icon_state = "cov"
+	screen_loc = "LEFT+1,CENTER-1"
+	command_to_run = "become-covenant"
 
 /obj/hud/button/menu/selection/observe
 	name = "Observe"
