@@ -76,6 +76,7 @@
 	name = "become insurrectionist"
 	desc = "United Rebel Front."
 	desc_extended = "Become an insurrectionist, if possible."
+	icon = 'icons/hud/halo/hud.dmi'
 	icon_state = "become_antag"
 	screen_loc = "CENTER-0.5,BOTTOM"
 
@@ -101,6 +102,7 @@
 	name = "become UNSC"
 	desc = "United Nations Space Command."
 	desc_extended = "Become a UNSC Soldier, if possible."
+	icon = 'icons/hud/halo/hud.dmi'
 	icon_state = "become_nt"
 	screen_loc = "CENTER+0.5,BOTTOM"
 
@@ -126,6 +128,7 @@
 	name = "become Covenant"
 	desc = "The Covenant."
 	desc_extended = "Become a Covenant Soldier, if possible."
+	icon = 'icons/hud/halo/hud.dmi'
 	icon_state = "become_cov"
 	screen_loc = "CENTER-0.5,BOTTOM+1"
 
